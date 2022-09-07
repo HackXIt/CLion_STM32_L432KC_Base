@@ -1,0 +1,3 @@
+D:/Embedded_Projects/sample-project/cmake-build-debug/CMakeFiles/sample-project.elf.dir
+D:/Embedded_Projects/sample-project/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Embedded_Projects/sample-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
