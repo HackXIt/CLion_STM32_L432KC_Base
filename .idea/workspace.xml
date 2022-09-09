@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -17,7 +17,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01afbeeb-af86-43ad-a361-7c55aea36835" name="Changes" comment="" />
+    <list default="true" id="01afbeeb-af86-43ad-a361-7c55aea36835" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_sample_project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32L432KCUX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32L432KCUX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4b7676ff731fcee5a2ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-09-07T23-39-22-0321.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sample-project.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sample-project.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/sample-project.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/sample-project.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/sample-project.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/sample-project.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/sample-project.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/sample-project.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/sample-project.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/sample-project.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/st_nucleo_l4.cfg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +53,7 @@
       <list>
         <option value="184" />
         <option value="82" />
-        <option value="2186" />
+        <option value="0" />
       </list>
     </option>
     <option name="columnOrder">
@@ -1144,11 +1166,12 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/Embedded_Projects/sample-project/STM32L4x2.svd",
+    "last_opened_file_path": "D:/Embedded_Projects/sample-project/sample-project.ioc",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.cidr.embedded.config"
   }
 }]]></component>
-  <component name="RunManager" selected="Embedded GDB Server.GDB_st-util">
+  <component name="RunManager" selected="Embedded GDB Server.Debug GDB_st-util">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -1159,7 +1182,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GDB_st-util" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-p 16318 --freq=480K" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sample-project" TARGET_NAME="sample-project.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="sample-project" RUN_TARGET_NAME="sample-project.elf">
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <react-native value="" />
+      <platform value="ANDROID" />
+      <envs />
+      <only-packager />
+      <browser value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <method v="2">
+        <option name="ReactNativePackager" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug GDB_st-util" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-p 16318 --freq=480K" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sample-project" TARGET_NAME="sample-project.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="sample-project" RUN_TARGET_NAME="sample-project.elf">
       <custom-gdb-server version="1" gdb-connect="tcp::16318" executable="C:\Users\rini\DATA\Tools\ARMDEV\STLink\bin\st-util.exe" warmup-ms="0" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-type="AFTER_DOWNLOAD">
         <debugger kind="GDB" isBundled="true" />
       </custom-gdb-server>
@@ -1167,9 +1201,17 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Debug OpenOCD" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sample-project" TARGET_NAME="sample-project.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="sample-project" RUN_TARGET_NAME="sample-project.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\Embedded_Projects\sample-project\st_nucleo_l4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+    <configuration default="true" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-p 16318 --freq=480K" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" version="1">
+      <custom-gdb-server version="1" gdb-connect="tcp::16318" executable="C:\Users\rini\DATA\Tools\ARMDEV\STLink\bin\st-util.exe" warmup-ms="0" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-type="AFTER_DOWNLOAD">
         <debugger kind="GDB" isBundled="true" />
+      </custom-gdb-server>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debug OCD" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sample-project" TARGET_NAME="sample-project.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="sample-project" RUN_TARGET_NAME="sample-project.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board\st_nucleo_l4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB">C:\Users\rini\DATA\Tools\ARMDEV\STLink\bin\st-util.exe</debugger>
       </openocd>
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
@@ -1177,9 +1219,8 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.sample-project.elf" />
-      <item itemvalue="Embedded GDB Server.GDB_st-util" />
-      <item itemvalue="OpenOCD Download &amp; Run.OCD sample-project" />
-      <item itemvalue="OpenOCD Download &amp; Run.Debug OpenOCD" />
+      <item itemvalue="Embedded GDB Server.Debug GDB_st-util" />
+      <item itemvalue="OpenOCD Download &amp; Run.Debug OCD" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -1190,7 +1231,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662592204381</updated>
-      <workItem from="1662592267429" duration="2317000" />
+      <workItem from="1662592267429" duration="2442000" />
+      <workItem from="1662656624788" duration="27000" />
+      <workItem from="1662749025768" duration="1225000" />
     </task>
     <servers />
   </component>
@@ -1207,5 +1250,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
